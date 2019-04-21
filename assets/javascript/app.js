@@ -83,13 +83,15 @@ $(document).ready(function () {
     var index;
     var newArray = [];
     var holder = [];
-
+    
+    $("#questionblock").hide();
     $("#reset").hide();
     // Click start button to display the questions
     $("#start").on("click", function () {
         // Hide Start button and instruction
         $("#start").hide();
         $("#instruction").hide();
+        $("#questionblock").show();
         // Display questions and start timer
         displayQuestion();
         runTimer();
@@ -113,7 +115,7 @@ $(document).ready(function () {
         if (timer === 0) {
             unansweredCount++;
             stop();
-            $("#answerblock").html("<p>Time's up! The correct answer is: <br>" + pick.choice[pick.answer] + "</p>");
+            $("#answerblock").html("<p>Time's up! The correct answer is: <br><br>" + pick.choice[pick.answer] + "</p>");
             hideimage();
         }
     }
@@ -164,7 +166,7 @@ $(document).ready(function () {
                 stop();
                 incorrectCount++;
                 userGuess = "";
-                $("#answerblock").html("<p>Wrong! The correct answer is: <br>" + pick.choice[pick.answer] + "</p>");
+                $("#answerblock").html("<p>Wrong! The correct answer is: <br><br>" + pick.choice[pick.answer] + "</p>");
                 hideimage();
             }
         })

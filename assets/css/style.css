@@ -27,7 +27,7 @@ body {
   text-align: center;
   width: 50%;
   max-width: 960px;
-  background: rgba(255, 240, 218, 0.863);
+  background: rgba(255, 240, 218, 0.671);
   font-size: 1rem; 
   margin-left: auto;
   margin-right: 5%;
@@ -37,9 +37,18 @@ body {
 
 #instruction{
   font-size: 2em;
-  text-align: justify;
-  margin: 15px 40px 0px 40px;
+  text-align: center;
+  margin: auto;
+  padding-top: 75px;
   font-family: 'Gloria Hallelujah', cursive;
+}
+
+#start {
+  font-size: 3.8em;
+  font-family: 'Cute Font', cursive;
+  margin-top: 30px;
+  border: 8px outset rgba(255, 255, 255, 0.445);
+  border-radius: 10px;
 }
 
 #timeRemaining {
@@ -83,18 +92,6 @@ img {
   margin-top: 30px;
 }
 
-#start {
-  font-size: 3.8em;
-  font-family: 'Cute Font', cursive;
-  margin-top: 100px;
-}
-
-#reset {
-  font-size: 3.8em;
-  font-family: 'Cute Font', cursive;
-  margin-top: 50px;
-}
-
 .another-page {
   display: none;
 }
@@ -102,14 +99,26 @@ img {
 p {
   font-size: 2em;
   text-align: center;
-  margin: 15px 40px 20px 40px;
+  margin: 20px 40px 10px 40px;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
-@media (max-width: 768px) {
+#reset {
+  font-size: 3.8em;
+  font-family: 'Cute Font', cursive;
+  margin-top: 40px;
+  border: 8px outset rgba(255, 255, 255, 0.445);
+  border-radius: 10px;
+}
 
+@media (max-width: 768px) {
+  html {
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 640px) {
-
+  html {
+    font-size: 8px;
+  }
 }
