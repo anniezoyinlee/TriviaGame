@@ -1,0 +1,115 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+}
+
+.site-header {
+  font-size: 1.5rem;
+  padding: 0 5%;
+  text-align: center;
+}
+
+.site-header h1 {
+  font-size: 2em;
+  font-family: 'Rock Salt', cursive;
+  color: white;
+  text-align: right;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  text-align: center;
+  width: 50%;
+  max-width: 960px;
+  background: rgba(255, 240, 218, 0.863);
+  font-size: 1rem; 
+  margin-left: auto;
+  margin-right: 5%;
+  height: 500px;
+  border-radius: 20px;
+}
+
+#instruction{
+  font-size: 2em;
+  text-align: justify;
+  margin: 15px 40px 0px 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+#timeRemaining {
+  background: rgb(255, 255, 255);
+  font-size: 1.8em;
+  margin-top: 30px;
+  font-family: 'Cute Font', cursive;
+}
+
+#questionblock {
+  font-size: 2em;
+  text-align: justify;
+  margin: 15px 20px;
+  padding: 15px;
+  background: gray;
+  color: white;
+  font-family: 'Cute Font', cursive;
+}
+
+#answerblock {
+  text-align: center;
+  margin: auto;
+}
+
+.answerchoice {
+	width: 50%;
+  font-size: 2em;
+  font-family: 'Gloria Hallelujah', cursive;
+	color: black;
+  border: 3px dotted rgba(85, 84, 84, 0.418);
+  margin: 40px auto;
+  background: white;
+  font-family: 'Cute Font', cursive;
+}
+
+img {
+  height: 200px;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-top: 30px;
+}
+
+#start {
+  font-size: 3.8em;
+  font-family: 'Cute Font', cursive;
+  margin-top: 100px;
+}
+
+#reset {
+  font-size: 3.8em;
+  font-family: 'Cute Font', cursive;
+  margin-top: 50px;
+}
+
+.another-page {
+  display: none;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  margin: 15px 40px 20px 40px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 640px) {
+
+}
