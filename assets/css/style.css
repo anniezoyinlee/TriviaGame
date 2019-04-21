@@ -76,7 +76,6 @@ body {
 .answerchoice {
 	width: 50%;
   font-size: 2em;
-  font-family: 'Gloria Hallelujah', cursive;
 	color: black;
   border: 3px dotted rgba(85, 84, 84, 0.418);
   margin: 40px auto;
@@ -115,10 +114,74 @@ p {
   html {
     font-size: 10px;
   }
+  img {
+    height: 100px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 5px;
+  }
+  .answerchoice {
+    width: 70%;
+    font-size: 2em;
+    margin: 20px auto;
+  }
+  .wrapper {
+    width: 50%;
+    max-width: 768px;
+    height: 290px;
+  }
+  p {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 40px 5px 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+  #reset {
+    font-size: 3em;
+    margin-top: 20px;
+    border: 8px outset rgba(255, 255, 255, 0.445);
+    border-radius: 10px;
+  }
 }
 
 @media (max-width: 640px) {
   html {
     font-size: 8px;
+  }
+  body {
+    background: black;
+  }
+  .site-header h1 {
+    text-align: center;
+  }
+  img {
+    height: 100px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 5px;
+  }
+  .answerchoice {
+    width: 70%;
+    font-size: 2em;
+    margin: 20px auto;
+  }
+  .wrapper {
+    width: 90%;
+    max-width: 768px;
+    height: 300px;
+  }
+  p {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px 40px 5px 40px;
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+  #reset {
+    font-size: 3em;
+    margin-top: 20px;
+    border: 8px outset rgba(255, 255, 255, 0.445);
+    border-radius: 10px;
   }
 }
