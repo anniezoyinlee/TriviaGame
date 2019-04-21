@@ -1,4 +1,4 @@
-# Harvard Extension School Coding Bootcamp Week 5 - Javascript Homework 2
+# Harvard Extension School Coding Bootcamp Week 5 - Javascript Assignment 2
 
 In this game computer randomly picks a number, and each of the gems has a random value, your goal is reach to the target number by clicking on different gems.
 

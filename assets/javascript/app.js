@@ -187,7 +187,7 @@ $(document).ready(function () {
                 $("#questionblock").html("<p>Game Over!</p>");
                 $("#answerblock").append("<p> Correct: " + correctCount + "</p>");
                 $("#answerblock").append("<p> Incorrect: " + incorrectCount + "</p>");
-                $("#answerblock").append("<p> UnansweredCount: " + unansweredCount + "</p>");
+                $("#answerblock").append("<p> Unanswered: " + unansweredCount + "</p>");
                 $("#reset").show();
                 correctCount = 0;
                 incorrectCount = 0;
